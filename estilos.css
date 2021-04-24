@@ -1,7 +1,15 @@
 .titulo {
-    background-color: white;
+    color: rgba(21, 230, 66, 0.884);
+    font-size: 4em;
 }
-.primerosubtitulo {
-    background-color: black;
-    float: right;
+.primersubtitulo {
+    color:peru;
+}
+.componentesconforman {
+    text-align: left;
+    color: pink;
+}
+.img1 {
+    float:right;
+    height: 10em;
 }
