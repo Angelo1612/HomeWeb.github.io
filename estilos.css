@@ -1,11 +1,62 @@
-.titulo {
-    color: rgba(21, 230, 66, 0.884);
-    font-size: 4em;
+#titulo {
+    color:coral ;
+    font-size: 3em;
 }
+
 .primersubtitulo {
     color:peru;
 }
+
+p#text1 {
+    font-size: 20px;
+}
+
 .img1 {
     float:right;
     height: 10em;
+}
+
+.nav-enlace {
+    background-color: rgb(58, 26, 238);
+    display: inline-block;
+    color:white;
+    padding: 10px 30px;
+    font-size: 18px; 
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background-color:olive;
+}
+
+nav{
+    background-color:darkblue;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav-boton {
+    background-color: slateblue;
+    color:snow;
+    padding: 10px 0;
+    border: 2px solid snow;
+    display: none;
+} 
+
+
+@media (max-width: 600px) {
+    nav{
+        background-color: black;
+        flex-direction: column;
+    }
+    .nav-enlace{
+        margin: 10px 0;
+    }
+    .nav-boton{
+        display: inline-block;
+    }
+    .desaparece{
+        display: none;
+    }
 }

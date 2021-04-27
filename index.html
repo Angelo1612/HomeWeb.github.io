@@ -11,30 +11,57 @@
   <!--Este es el encabezado de la portada-->
     <center<marquee direction="down" width="250" height="250" behavior="alternate" ></marquee>
         <marquee behavior="alternate">
-          <h1 class="titulo"> El Mundo de las Computadoras </h1>
+          <h1 id="titulo"> El Mundo de las Computadoras </h1>
         </marquee>
       </marquee>
 </body>
 <body>
+  <nav>
+    <button class="nav-boton" onclick="accion()">Menú</button>
+    <a href="#" class="nav-enlace desaparece">INICIO</a>
+    <a href="#" class="nav-enlace desaparece">COMPONENTES
+    </a>
+    <a href="#" class="nav-enlace desaparece">MUNDO EMPRESARIAL</a>
+    <a href="#" class="nav-enlace desaparece">MUNDO GAMING</a> 
+  </nav>
+
+  <script>
+    function accion(){
+      console.log("esta funcionando mi boton");
+      var ancla = document.getElementsByClassName("nav-enlace");
+      for(var i = 0; i < ancla.length; i++){
+        ancla[i].classList.toggle("desaparece");
+      }
+    }
+  </script>
+</body>
+
+<body>
   <!--Primer subtema-->
-  <h2 class="primersubtitulo">¿Que es un ordenador o computadora?</h2>
-  <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/img1.png" alt="" class="img1">
-  <p>Este es un dispositivo electronico capaz de recibir y procesar datos con la <br>
-    misión de transformarlos en información útil y está compuesta en dos partes:</p>
+  <h2 class="primersubtitulo"><strong>
+    ¿Que es un ordenador o computadora?
+  </strong>
+  </h2>
+  <p id="text1">
+    Este es un dispositivo electronico capaz de recibir y procesar datos con la misión de transformarlos en información útil y está compuesta en dos partes:
+  </p>
   <ul>
     <li><h3>Hardware</h3></li>
     <h3><li>Software</li></h3>
   </ul>
   <!--Segundo subtema-->
   <h2 class="primersubtitulo">¿Cuáles son los componentes que lo conforman?</h2>
-  <h3><p>Este dispositivo está conformado internamente por:</p></h3>
-  <h4><p>PROCESADOR O CPU:</p> Es el componente más importante de nuestro PC. Su función es la de ser el cerebro <br> de todo el funcionamiento del sistema, siendo el encargado de dirigir todas las tareas <br>que lleva a cabo nuestro equipo
+    <p>Este dispositivo está conformado internamente por:</p>
+  <b>PROCESADOR O CPU:</b> 
+  <p>  Es el componente más importante de nuestro PC. 
+    Su función es la de ser el cerebro de todo el funcionamiento del sistema, siendo el encargado de dirigir todas las tareas que lleva a cabo nuestro equipo</p>
   </p>
   <p>EL DISCO DURO INTERNO:</p> Es el dispositivo de almacenamiento contenido dentro de un PC, portátil o servidor.<br> Es el responsable de almacenar toda la información, los programas y/o el sistema operativo.</p>
   <P>LA MAINBOARD O MOTHERBOARD:</p> Es una tarjeta de circuito impreso a la que se conectan los componentes que constituyen<br> la computadora. Es una parte fundamental para montar cualquier computadora personal <br>de escritorio o portátil</P>
   <p>FUENTE DE ALIMENTACIÓN: </p>Es un dispositivo que se encarga proporcionar la corriente justa y necesaria al equipo</p>
   <p>MEMORIA RAM:</p> Su función principal es recordar la información que tienes en cada una de las aplicaciones<br> abiertas en el computador, mientras este se encuentre encendido</p>
   <p>TARJETA GRÁFICA:</p> Se encarga de procesar los datos provenientes de la unidad central de procesamiento y<br> transformarlos en información comprensible y representable en el dispositivo de salida</p></h4>
+
 
 </body>
 </html>
