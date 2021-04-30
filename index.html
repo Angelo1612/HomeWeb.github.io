@@ -6,8 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La computadora y todo relacionado a ella</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="estilosdeprueba.css">
 </head>
 <body>
+  <div class="social-bar">
+      <a href="https://web.facebook.com/angelo.armascusi.3/" class="icon icon-facebook" target="_blank"></a>
+      <a href="https://web.whatsapp.com/" class="icon icon-whatsapp" target="_blank"></a>
+      <a href="https://www.instagram.com/angelo_armas16/" class="icon icon-instagram" target="_blank"></a>
+  </div>
+</body>
+<body background="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/fondoblanco2.jpg">
   <!--Este es el encabezado de la portada-->
     <center<marquee direction="down" width="250" height="250" behavior="alternate" ></marquee>
         <marquee behavior="alternate">
@@ -19,15 +28,15 @@
   <nav>
     <button class="nav-boton" onclick="accion()">Menú</button>
     <a href="#" class="nav-enlace desaparece">INICIO</a>
-    <a href="#" class="nav-enlace desaparece">COMPONENTES
+    <a href="#" class="nav-enlace desaparece">PREGUNTAS/FORO
     </a>
-    <a href="#" class="nav-enlace desaparece">MUNDO EMPRESARIAL</a>
+    <a href="#" class="nav-enlace desaparece">MUNDO PROFESIONAL</a>
     <a href="#" class="nav-enlace desaparece">MUNDO GAMING</a> 
   </nav>
 
   <script>
     function accion(){
-      console.log("esta funcionando mi boton");
+      console.log("Boton ejecutado correctamente");
       var ancla = document.getElementsByClassName("nav-enlace");
       for(var i = 0; i < ancla.length; i++){
         ancla[i].classList.toggle("desaparece");
@@ -38,30 +47,44 @@
 
 <body>
   <!--Primer subtema-->
-  <h2 class="primersubtitulo"><strong>
-    ¿Que es un ordenador o computadora?
-  </strong>
-  </h2>
-  <p id="text1">
-    Este es un dispositivo electronico capaz de recibir y procesar datos con la misión de transformarlos en información útil y está compuesta en dos partes:
+  <div class="contenido1" >
+
+    <p >
+      <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/img1png.png" class="img1" title="Hardware y Software">
+    <h2 id="text1" style="color: darkblue;"> ¿QUÉ ES UNA COMPUTADORA O PC?</h2>
+    <p id="text1">Una computadora es un dispositivo informático que es capaz de recibir, almacenar y procesar información de una forma útil. Está programada para realizar operaciones lógicas o aritméticas de forma automática y está compuesta por dos partes:</p>
   </p>
   <ul>
     <li><h3>Hardware</h3></li>
     <h3><li>Software</li></h3>
   </ul>
+</div>
   <!--Segundo subtema-->
-  <h2 class="primersubtitulo">¿Cuáles son los componentes que lo conforman?</h2>
-    <p>Este dispositivo está conformado internamente por:</p>
-  <b>PROCESADOR O CPU:</b> 
-  <p>  Es el componente más importante de nuestro PC. 
-    Su función es la de ser el cerebro de todo el funcionamiento del sistema, siendo el encargado de dirigir todas las tareas que lleva a cabo nuestro equipo</p>
+  <p >
+    <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/componentes%20internos.png" class="img2" title="Componentes internos">
+  <h2 id="text2" style="color: darkblue;"> COMPONENTES INTERNOS</h2>
+  <p id="text2" align=left>
+      Este dispositivo está conformado internamente por:
+      <ul>
+        <li><h3>Procesador o CPU</h3></li>
+        <li><h3>Disco duro interno</h3></li>
+        <li><h3>Placa base o MainBoard</h3></li>
+        <li><h3>Fuente de alimentación o Fuente de poder</h3></li>
+        <li><h3>Memoria RAM</h3></li>
+        <li><h3>Tarjeta gráfica, tarjeta de sonido y tarjeta de red</h3></li>
+      </ul>
+    
   </p>
-  <p>EL DISCO DURO INTERNO:</p> Es el dispositivo de almacenamiento contenido dentro de un PC, portátil o servidor.<br> Es el responsable de almacenar toda la información, los programas y/o el sistema operativo.</p>
-  <P>LA MAINBOARD O MOTHERBOARD:</p> Es una tarjeta de circuito impreso a la que se conectan los componentes que constituyen<br> la computadora. Es una parte fundamental para montar cualquier computadora personal <br>de escritorio o portátil</P>
-  <p>FUENTE DE ALIMENTACIÓN: </p>Es un dispositivo que se encarga proporcionar la corriente justa y necesaria al equipo</p>
-  <p>MEMORIA RAM:</p> Su función principal es recordar la información que tienes en cada una de las aplicaciones<br> abiertas en el computador, mientras este se encuentre encendido</p>
-  <p>TARJETA GRÁFICA:</p> Se encarga de procesar los datos provenientes de la unidad central de procesamiento y<br> transformarlos en información comprensible y representable en el dispositivo de salida</p></h4>
-
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p >
+    <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/img1png.png" class="img1" title="Hardware y Software">
+  <h2 id="text1" style="color: darkblue;"> ¿QUÉ ES UNA COMPUTADORA O PC?</h2>
+  <p id="text1">Una computadora es un dispositivo informático que es capaz de recibir, almacenar y procesar información de una forma útil. Está programada para realizar operaciones lógicas o aritméticas de forma automática y está compuesta en dos partes:</p>
+</p>
 
 </body>
 </html>

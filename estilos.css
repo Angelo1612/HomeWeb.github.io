@@ -1,23 +1,45 @@
 #titulo {
-    color:coral ;
-    font-size: 3em;
+    color:darkcyan ;
+    font-size: 5em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
 }
 
-.primersubtitulo {
-    color:peru;
+.contenido1 {
+    display: table;
+    height: 150px;
+    margin: 1rem auto;
+    width: 1240px;   
+    text-align: left;
 }
-
-p#text1 {
-    font-size: 20px;
+#text1 {
+    margin-left:25px;
 }
-
+#text2 {
+    margin-right: 20px;
+}
 .img1 {
-    float:right;
-    height: 10em;
+    width: 360px;
+    height: 195px;
+    float: right;
+    border: black;
+    border-style: solid;
+    margin-right: 60px;
+    margin-left: 80px;
+    margin-bottom: 20px;
 }
-
+.img2 {
+    margin-top: 25px;
+    width: 360px;
+    height: 280px;
+    float: left;
+    border: black;
+    border-style: solid;
+    margin-right: 60px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
 .nav-enlace {
-    background-color: rgb(58, 26, 238);
+ 
     display: inline-block;
     color:white;
     padding: 10px 30px;
@@ -26,7 +48,7 @@ p#text1 {
 }
 
 .nav-enlace:hover{
-    background-color:olive;
+    background-color:rgb(14, 65, 175);
 }
 
 nav{
@@ -45,7 +67,8 @@ nav{
 } 
 
 
-@media (max-width: 600px) {
+
+@media (max-width: 800px) {
     nav{
         background-color: black;
         flex-direction: column;

@@ -1,0 +1,37 @@
+/* Propiedades de la barra de redes sociales */
+.social-bar {
+    position:fixed;
+    left: 0;
+    top: 35%;
+    font-size: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 100;
+}
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all 0.5s;
+}
+.icon-facebook {
+    background: #2E406E;
+    border-radius: 0 1rem 0 0;
+}
+.icon-whatsapp {
+    background:limegreen
+}
+.icon-instagram {
+    background: rgba(207, 155, 11, 0.815);
+    border-radius: 0 0 1rem 0;
+}
+.icon:hover {
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow: 0 0 .5 rgba(0, 0, 0, 0.42); 
+}
+
+/* Propiedades de la caja de comentarios */
+
