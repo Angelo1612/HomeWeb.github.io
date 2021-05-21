@@ -1,92 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>La computadora y todo relacionado a ella</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="font.css">
-    <link rel="stylesheet" href="estilosdeprueba.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mundo de las PC - Inicio</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="estilosdeprueba.css">
 </head>
-<body>
-  <div class="social-bar">
-      <a href="https://web.facebook.com/angelo.armascusi.3/" class="icon icon-facebook" target="_blank"></a>
-      <a href="https://web.whatsapp.com/" class="icon icon-whatsapp" target="_blank"></a>
-      <a href="https://www.instagram.com/angelo_armas16/" class="icon icon-instagram" target="_blank"></a>
-  </div>
-</body>
-<body background="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/fondoblanco2.jpg">
-  <!--Este es el encabezado de la portada-->
-    <center<marquee direction="down" width="250" height="250" behavior="alternate" ></marquee>
-        <marquee behavior="alternate">
-          <h1 id="titulo"> El Mundo de las Computadoras </h1>
-        </marquee>
-      </marquee>
-</body>
-<body>
-  <nav>
-    <button class="nav-boton" onclick="accion()">Menú</button>
-    <a href="#" class="nav-enlace desaparece">INICIO</a>
-    <a href="#" class="nav-enlace desaparece">PREGUNTAS/FORO
-    </a>
-    <a href="#" class="nav-enlace desaparece">MUNDO PROFESIONAL</a>
-    <a href="#" class="nav-enlace desaparece">MUNDO GAMING</a> 
-  </nav>
-
-  <script>
-    function accion(){
-      console.log("Boton ejecutado correctamente");
-      var ancla = document.getElementsByClassName("nav-enlace");
-      for(var i = 0; i < ancla.length; i++){
-        ancla[i].classList.toggle("desaparece");
-      }
-    }
-  </script>
-</body>
 
 <body>
-  <!--Primer subtema-->
-  <div class="contenido1" >
 
-    <p >
-      <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/img1png.png" class="img1" title="Hardware y Software">
-    <h2 id="text1" style="color: darkblue;"> ¿QUÉ ES UNA COMPUTADORA O PC?</h2>
-    <p id="text1">Una computadora es un dispositivo informático que es capaz de recibir, almacenar y procesar información de una forma útil. Está programada para realizar operaciones lógicas o aritméticas de forma automática y está compuesta por dos partes:</p>
-  </p>
-  <ul>
-    <li><h3>Hardware</h3></li>
-    <h3><li>Software</li></h3>
-  </ul>
-</div>
-  <!--Segundo subtema-->
-  <p >
-    <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/componentes%20internos.png" class="img2" title="Componentes internos">
-  <h2 id="text2" style="color: darkblue;"> COMPONENTES INTERNOS</h2>
-  <p id="text2" align=left>
-      Este dispositivo está conformado internamente por:
-      <ul>
-        <li><h3>Procesador o CPU</h3></li>
-        <li><h3>Disco duro interno</h3></li>
-        <li><h3>Placa base o MainBoard</h3></li>
-        <li><h3>Fuente de alimentación o Fuente de poder</h3></li>
-        <li><h3>Memoria RAM</h3></li>
-        <li><h3>Tarjeta gráfica, tarjeta de sonido y tarjeta de red</h3></li>
-      </ul>
-    
-  </p>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <p >
-    <img src="https://raw.githubusercontent.com/Angelo1612/HomeWeb.github.io/main/Imagenes/img1png.png" class="img1" title="Hardware y Software">
-  <h2 id="text1" style="color: darkblue;"> ¿QUÉ ES UNA COMPUTADORA O PC?</h2>
-  <p id="text1">Una computadora es un dispositivo informático que es capaz de recibir, almacenar y procesar información de una forma útil. Está programada para realizar operaciones lógicas o aritméticas de forma automática y está compuesta en dos partes:</p>
-</p>
+  <header id="header">
+
+      <!-- Navegation Menu -->
+      <nav class="menu">
+          <div class="logobox">
+              <h1 class="logo"><a href="#">
+                      <i class="fas fa-tv"></i>
+                      MISHI
+                  </a></h1>
+
+              <span class="btn-menu"><i class="fas fa-bars"></i></span>
+          </div>
+
+          <div class="barra">
+              <ul class="lista">
+                  <li><a href="#" class="activado">Inicio</a></li>
+                  <li><a href="#">Mundo Profesional</a></li>
+                  <li><a href="#">Mundo Gaming</a></li>
+                  <li><a href="#">Soluciones</a></li>
+                  <li><a href="#">Contacto</a></li>
+              </ul>
+          </div>
+      </nav>
+
+      <!-- Img Header -->
+      <figure class="img-header">
+          <div class="bienvenida">
+              <h4>"Bienvenidos al sitio web Mundo de las PC"</h4>
+              <h2><a href="#">
+                      <i class="fas fa-tv"></i>
+                      MISHI
+                  </a></h2>
+          </div>
+      </figure>
+
+  </header>
+
+  <main>
+
+      <!-- Acerca de nosotros -->
+      <section class="about-us">
+          <div class="info">
+              <h3>Acerca de la página</h3>
+              <p>Bienvenidos a la página "El Mundo de las PC" este sitio web ha sido creado con el fin de resolver
+                  dudas, problemas, entre otros.. todo lo relacionado con tu ordenador. Nos gustaría que le dieras un
+                  vistazo al contenido por ofrecerte, y cabe resaltar que no solo resolvemos dudas y problemas que
+                  tengas sino que también te daremos una breve información acerca de como reconocer un buen componente
+                  para tu PC y de esa manera puedas trabajar de manera estable sin preocupaciones.
+                  También nos centraremos en el tema de que PC es recomendable para el uso que le quieras dar ya sea
+                  para estudios o para juegos.
+              </p>
+              <hr>
+          </div>
+
+          <div class="free-content">
+              <h4>TIPOS DE USOS</h4>
+              <div class="icons">
+                  <div>
+                      <div class="iconos"><span><i class="fas fa-user-edit"></i></span></div>
+                      <h6>Académico</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut
+                          itaque.</p>
+                  </div>
+
+                  <div>
+                      <div class="iconos"><span><i class="fas fa-chalkboard-teacher"></i></i></span></div>
+                      <h6>Profesional</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut
+                          itaque.</p>
+                  </div>
+
+                  <div>
+                      <div class="iconos"><span><i class="fas fa-headset"></i></span></div>
+                      <h6>Gaming</h6>
+                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis nesciunt sed mollitia ea ut
+                          itaque.</p>
+                  </div>
+
+              </div>
+          </div>
+      </section>
+
+      <!-- Imagenes de la parte inferior -->
+      <section class="seccion-imagenes">
+
+          </div>
+
+          <div class="gallery-content">
+              <div class="img-tec"><img src="img/img-1.jpg" alt="PC"></div>
+              <div class="img-tec"><img src="img/img-2.jpg" alt="PC"></div>
+              <div class="img-tec"><img src="img/img-3.jpg" alt="PC"></div>
+              <div class="img-tec"><img src="img/img-4.jpg" alt="PC"></div>
+
+          </div>
+
+          <!-- Modal -->
+          <div class="modal">
+              <span id="closeModal"><i class="fas fa-times"></i></span>
+              <img id="imgModal">
+              <p id="caption"></p>
+          </div>
+
+      </section>
+
+      <!-- Footer o Pie de Pagina -->
+      <footer>
+          <p>&copy; Todos los derechos reservados - 2020 | MISHI</p>
+      </footer>
+
+  </main>
+
+  <!-- Scripts (JavaScripts)-->
+  <script src="https://kit.fontawesome.com/35db202371.js" crossorigin="icono"></script>
+  <script src="menu.js"></script>
 
 </body>
+
+
 </html>
-
-
