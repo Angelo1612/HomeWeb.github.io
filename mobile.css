@@ -1,0 +1,70 @@
+@media only screen and (max-width:900px) {
+    
+    /** Barra de navegación **/
+    .btn-menu{
+        position: absolute;
+        top: 12px;
+        right: 30px;
+        display: block;
+        color:#fff;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .menu .lista{
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background: #000;
+        border-top: 3px solid #fff;
+    }
+    .menu .barra .lista{
+        display: block;
+        width: 90%;
+        margin:50px auto;
+    }
+    .menu .barra .lista li{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid #fff;
+    }
+    .menu .barra .lista li a{
+        margin:5px 0px;
+    }
+
+    /** Header **/
+    .img-header .bienvenida{
+        width: 80%;
+        margin:auto;
+    }
+    .img-header .bienvenida h4{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .img-header .bienvenida > h2 a{
+        font-size: 40px;
+    }
+
+    /** Acerca de nosotros **/
+    .about-us .info h3{font-size: 35px;}
+    .about-us .info p{font-size: 18px;}
+
+    /** Imagenes **/
+    .seccion-imagenes{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12, 350px);
+        grid-gap: 20px;
+    }
+
+    /** Modal **/
+    .modal #imgModal{
+        width: 95%;
+        height: 55%;
+    }
+    
+
+}
+
+
+
