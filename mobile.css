@@ -21,8 +21,7 @@
     }
     .menu .barra .lista{
         display: block;
-        width: 90%;
-        margin:50px auto;
+
     }
     .menu .barra .lista li{
         display: flex;
